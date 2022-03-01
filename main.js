@@ -17,6 +17,9 @@ function secti(a, b) {
   return c;
 }
 
+function celkem(selector) {
+  document.querySelector(selector).innerHTML = secti(a,b);
+}
 
 
 function priKliknuti(){
@@ -25,9 +28,6 @@ function priKliknuti(){
   ctverecek.style.backgroundColor = 'green';
 }
 
-function celkem(selector) {
-  document.querySelector(selector).innerHTML = secti();
-}
 
 /**
  * Upozorní uživatele při spuštění.
